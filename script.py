@@ -4,8 +4,8 @@ import json
 # Leer archivo Excel
 archivo = "provee.xlsx"
 
-header_df = pd.read_excel(archivo, sheet_name="HEADER")
-lines_df = pd.read_excel(archivo, sheet_name="LINES")
+header_df = pd.read_excel(archivo, sheet_name="Hoja1")
+lines_df = pd.read_excel(archivo, sheet_name="Hoja2")
 
 # Tomar la única fila de cabecera
 h = header_df.iloc[0]
