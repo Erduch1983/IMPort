@@ -43,5 +43,5 @@ for _, row in lines_df.iterrows():
 # Guardar JSON
 with open("asiento.json", "w") as f:
     json.dump(asiento, f, indent=4)
-
+print(json.dumps(asiento, indent=4))
 print("JSON listo para Service Layer 🚀")
